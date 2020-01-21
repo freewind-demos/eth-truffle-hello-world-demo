@@ -1,14 +1,14 @@
-pragma solidity ^0.4.4;
+pragma solidity ^0.5.16;
 
 
 contract Hello {
-  string message = "Hello Eth";
+    string message = "Hello Eth";
 
-  function Hello() {
-    // constructor
-  }
+    constructor() public {
+        // constructor
+    }
 
-  function getMessage() returns (string) {
-    return message;
-  }
+    function getMessage() public returns (string memory) {
+        return message;
+    }
 }

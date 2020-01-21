@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start-chain": "ganache-cli",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "ganache-cli": "6.8.2",
+    "solc": "0.5.16",
+    "truffle": "5.1.9"
+  }
+}

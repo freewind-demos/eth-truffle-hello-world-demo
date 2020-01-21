@@ -1,6 +1,12 @@
 Eth Truffle Hello World Demo
 ===========================
 
+```
+npm install
+npm run start-chain
+npm test
+```
+
 The code is basically followed by these two articles:
 
 - Coding: <https://medium.com/etherereum-salon/hello-ethereum-solan-contract-4643118a6119>
